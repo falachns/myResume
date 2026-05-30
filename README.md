@@ -1,49 +1,45 @@
-# Static Web CV
+# Single-Page CV
 
-This is a simple single-page CV website built with plain HTML and CSS.
+A single-page web CV built with semantic HTML and plain CSS for the roadmap.sh Single-Page CV project.
 
-## Files
+## Live Demo
 
-- `index.html` - the resume content
-- `styles.css` - screen styles
-- `print.css` - print and PDF export styles
-- `favicon.svg` - browser tab icon
-- `README.md` - project notes
+https://resume-falachns.vercel.app/
 
-## How to Edit
+## Features
 
-Open `index.html` to edit the CV text, links, SEO meta tags, and Open Graph tags.
+- Semantic HTML structure
+- SEO meta tags
+- Open Graph tags
+- Favicon
+- Responsive A4-style CV layout
+- Print-friendly styling
 
-Open `styles.css` for screen styling and `print.css` for PDF export styling.
+## Tech Stack
 
-## Preview Locally
+- HTML
+- CSS
 
-Use a local server from this folder:
+## Project Structure
+
+- `index.html`
+- `styles.css`
+- `print.css`
+- `favicon.svg`
+- `README.md`
+
+## How to Run Locally
 
 ```bash
 python3 -m http.server 3000
 ```
 
-Then open:
+Open:
 
 ```text
 http://localhost:3000
 ```
 
-## Export to PDF
+## Deployment
 
-1. Open the page in your browser.
-2. Press `Cmd + P` on Mac or `Ctrl + P` on Windows.
-3. Choose `Save as PDF`.
-4. Use A4 paper size.
-5. Turn off browser headers and footers if they appear.
-
-## Deploy to Vercel
-
-This project is ready for Vercel as a static website because `index.html` is in the root folder and there are no build tools.
-
-In Vercel, use these settings:
-
-- Framework Preset: `Other`
-- Build Command: leave empty
-- Output Directory: leave empty
+Deployed on Vercel.
