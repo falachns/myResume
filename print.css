@@ -1,0 +1,156 @@
+@page {
+  size: A4;
+  margin: 0;
+}
+
+html,
+body {
+  background: #ffffff;
+}
+
+body {
+  color: #4b4b4b;
+  font-size: 11.85px;
+  line-height: 1.3;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.resume-page {
+  width: 210mm;
+  min-height: 297mm;
+  margin: 0;
+  padding: 38px 48px 16px;
+  border: 0;
+}
+
+.resume-header,
+main,
+.resume-section,
+.entry {
+  width: 100%;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.resume-header {
+  margin-bottom: 7px;
+  padding-bottom: 0;
+  text-align: left;
+}
+
+h1 {
+  color: #111111;
+  font-size: 26px;
+  line-height: 1.05;
+}
+
+.contact-list,
+.meta,
+.date {
+  color: #4b4b4b;
+  font-size: 11.8px;
+  line-height: 1.28;
+}
+
+.contact-list {
+  color: #333333;
+  font-size: 12.25px;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.contact-list a {
+  color: #2563eb;
+}
+
+.resume-section {
+  margin-top: 6px;
+  padding-top: 0;
+}
+
+.resume-section + .resume-section {
+  margin-top: 18px;
+}
+
+h2 {
+  margin-bottom: 7px;
+  color: #1f1f1f;
+  font-size: 13.35px;
+  line-height: 1.1;
+  border-bottom-color: #8a8a8a;
+  padding-bottom: 3px;
+}
+
+h3 {
+  color: #111111;
+  font-size: 13px;
+  line-height: 1.18;
+}
+
+.entry {
+  margin-bottom: 5px;
+  break-inside: avoid;
+}
+
+.entry-header {
+  margin-bottom: 2px;
+}
+
+ul {
+  margin-top: 2px;
+  padding-left: 22px;
+}
+
+li {
+  color: #4b4b4b;
+  margin-bottom: 0;
+  line-height: 1.3;
+}
+
+.resume-section p + p {
+  margin-top: 1px;
+}
+
+.resume-section:first-of-type .entry > p:last-child {
+  position: relative;
+  margin-top: 2px;
+  padding-left: 22px;
+}
+
+.resume-section:first-of-type .entry > p:last-child::before {
+  position: absolute;
+  left: 9px;
+  content: "•";
+  color: #000000;
+  font-weight: 700;
+}
+
+.date {
+  color: #666666;
+  font-style: italic;
+  font-weight: 400;
+  white-space: nowrap;
+}
+
+.resume-section:last-child p {
+  position: relative;
+  padding-left: 15px;
+}
+
+.resume-section:last-child p::before {
+  position: absolute;
+  left: 0;
+  content: "•";
+  color: #000000;
+  font-weight: 700;
+}
+
+/* Avoid awkward page breaks when printing or exporting to PDF. */
+.resume-header,
+.resume-section {
+  break-inside: avoid;
+}
