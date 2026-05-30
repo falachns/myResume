@@ -4,7 +4,7 @@ A single-page web CV built with semantic HTML and plain CSS for the roadmap.sh S
 
 ## Project URL
 
-https://resume-falachns.vercel.app/
+[https://resume-falachns.vercel.app/](https://roadmap.sh/projects/single-page-cv)
 
 ## Live Demo
 
